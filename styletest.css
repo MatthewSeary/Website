@@ -175,5 +175,9 @@ body {
     .overlay-video {
         display: none;
     }
-    
+}
+@media only screen and (max-device-width: 600px) {
+    .overlay-video {
+        display: none;
+    }
 }
