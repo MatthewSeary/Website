@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="styletest.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $(".slidingDiv").hide();
+            $(".show_hide").show();
+
+            $('.show_hide').click(function () {
+                $(".slidingDiv").slideToggle();
+            });
+
+        });
+    </script>
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+<title>Hello</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header"><span style="font-size:30px;cursor:pointer" onclick="openNav()">☰</span> &nbsp; <a href="index.html">Coast Collective</a></div>
+        <div class="content">
+            <iframe src="http://files.flipsnack.com/iframe/embed.html?hash=ft3fwct70&wmode=transparent&t=1463167314" width="100%" height="80%" frameborder="0" ></iframe>
+        </div>
+    </div>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
+        <div class="overlay-content">
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <video autoplay loop poster="5231163.jpg" class="overlay-video">
+            <source src="new2.mp4" type="video/mp4">
+        </video>
+    </div>
+
+</body>
+
+</html>
