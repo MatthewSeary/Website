@@ -172,5 +172,7 @@ body {
         top: 15px;
         right: 35px;
     }
-    
+        .overlay-video {
+        display: none;
+    }
 }
