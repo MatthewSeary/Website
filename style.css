@@ -202,42 +202,6 @@ body {
 
 /******************* Device Settings ******************/
 
-@media (max-width: 1366px) {
-    .header {
-        font: bold 40px 'Roboto', sans-serif;
-    }
-    .slidein2 {
-        font: bold 40px 'Roboto', sans-serif;
-    }
-    .slidein3 {
-        font: bold 240px 'Roboto', sans-serif;
-        top: 20%;
-        left: 0%;
-    }
-}
-
-@media (max-width: 800px) {
-    .socialmedia {
-        position: fixed;
-        left: 50%;
-        width: 85.8px;
-        transform: translateX(-50%);
-        background-color: #333333;
-        top: 90%;
-        z-index: 99999;
-    }
-    .header {
-        font: bold 40px 'Roboto', sans-serif;
-    }
-    .slidein2 {
-        font: bold 40px 'Roboto', sans-serif;
-    }
-    .slidein3 {
-        font: bold 140px 'Roboto', sans-serif;
-        top: 30%;
-        left: -5%;
-    }
-}
 
 @media (max-width: 600px) {
     .socialmedia {
@@ -249,61 +213,16 @@ body {
         top: 90%;
         z-index: 99999;
     }
-    .header {
-        font: bold 40px 'Roboto', sans-serif;
+    .header{
+        top:50%;
     }
-    .slidein2 {
-        font: bold 40px 'Roboto', sans-serif;
+    .edition{
+        top:50%;
     }
-    .slidein3 {
-        font: bold 140px 'Roboto', sans-serif;
-        left: 30%;
-        top: 30%;
-    }
-}
-
-@media (max-width: 480px) {
-    .socialmedia {
-        position: fixed;
-        left: 50%;
-        width: 85.8px;
-        transform: translateX(-50%);
-        background-color: #333333;
-        top: 90%;
-        z-index: 99999;
-    }
-    .slidein {
-        font: bold 40px 'Roboto', sans-serif;
-    }
-    .slidein2 {
-        font: bold 40px 'Roboto', sans-serif;
-    }
-    .slidein3 {
-        font: bold 60px 'Roboto', sans-serif;
-        top: 35%;
-        left: 5%;
+    .photocredit{
+        top:50%;
+        color: #efefef;
+        display:none;
     }
 }
 
-@media (max-width: 320px) {
-    .socialmedia {
-        position: fixed;
-        left: 50%;
-        width: 85.8px;
-        transform: translateX(-50%);
-        background-color: #333333;
-        top: 90%;
-        z-index: 99999;
-    }
-    .header {
-        font: bold 40px 'Roboto', sans-serif;
-    }
-    .slidein2 {
-        font: bold 40px 'Roboto', sans-serif;
-    }
-    .slidein3 {
-        font: bold 60px 'Roboto', sans-serif;
-        left: -5%;
-        top: 40%;
-    }
-}
