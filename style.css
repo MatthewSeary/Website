@@ -213,7 +213,7 @@ body {
 @media (max-width: 1366px) {
     body {
         position: fixed;
-        background-image: url(bg.jpg);
+        background-image: url(1366.jpg);
     }
     .slidein {
         font: bold 40px 'Roboto', sans-serif;
@@ -309,6 +309,8 @@ body {
         left: 5%;
     }
 }
+
+    
 @media (max-width: 320px){
     body {
         position: fixed;
