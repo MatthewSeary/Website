@@ -255,6 +255,9 @@
     #fullscreenmenu ul {
         font-size: 1.5em;
     }
+    #fullscreenmenu ul li a {
+        padding: 15px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -264,5 +267,8 @@
     }
     #fullscreenmenu ul {
         font-size: 1em;
+    }
+    #fullscreenmenu ul li a {
+        padding: 15px;
     }
 }
