@@ -1,3 +1,5 @@
+/******************* Static Background *******************/
+
 .background-image-submission {
     background: url('inkbg.png') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -16,9 +18,8 @@
     opacity: 1;
 }
 
-.fa-caret-down {
-    color: #333;
-}
+
+/******************* Email & Dropdown *******************/
 
 .center {
     width: 500px;
@@ -29,6 +30,10 @@
     width: 100%;
     margin: auto;
     text-align: center;
+}
+
+.fa-caret-down {
+    color: #333;
 }
 
 #showOrHideDiv {
@@ -48,6 +53,9 @@
     font: bold 30px 'Roboto', sans-serif;
     border-bottom: 1px dotted #000;
 }
+
+
+/******************* Device Settings *******************/
 
 @media (max-width: 800px) {
     .center {
@@ -73,10 +81,10 @@
         width: 300px;
         margin: 40% auto;
     }
-    .header {
+    .br_header {
         display: none;
     }
-    .photocredit {
+    .br_photocredit {
         display: none;
     }
     .email {
@@ -92,10 +100,10 @@
         width: 200px;
         margin: 40% auto;
     }
-    .header {
+    .br_header {
         display: none;
     }
-    .photocredit {
+    .br_photocredit {
         display: none;
     }
     .email {
