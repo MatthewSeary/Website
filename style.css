@@ -207,7 +207,7 @@ body {
     .socialmedia {
         position: fixed;
         left: 50%;
-        width: 85.8px;
+        width: 85.8px !important;
         transform: translateX(-50%);
         background-color: #333333;
         top: 90%;
@@ -225,3 +225,4 @@ body {
         display:none;
     }
 }
+
