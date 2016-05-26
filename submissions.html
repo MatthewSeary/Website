@@ -18,33 +18,26 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="hamburgericonmenu.js"></script>
     <script src="fadein.js"></script>
-    <script>
-        $(function () { // on document ready
-            var div = $('#showOrHideDiv'); // cache <div>
-            $('#action').click(function () { // on click on the `<a>`
-                div.fadeToggle(1000); // toggle div visibility over 1 second
-            });
-        });
-    </script>
+    <script src="showhide.js"></script>
 
 </head>
 
 <body onload="document.body.style.opacity='1'">
     <div class="container">
+        <!---------------- Email & Dropdown Content ---------------->
         <div class="center">
             <div class="email">thecoastcollective@gmail.com</div>
             <div class="dropdown"><a id="action" href="#"><i class="fa fa-caret-down fa-2x"></i></a>
                 <div id="showOrHideDiv" style="display: none;">Hello</div>
             </div>
         </div>
-
-        <div class="header">COAST COLLECTIVE</div>
-        <div class="photocredit">Ink Drop 019
+        <!---------------- Bottom Right (BR) Text ---------------->
+        <div class="br_header">COAST COLLECTIVE</div>
+        <div class="br_photocredit">Ink Drop 019
             <br> MaddTroysStudioX
         </div>
     </div>
-
-    <!-- Keep below other elements -->
+    <!---------------- Menu ---------------->
     <div id="hamburgericonmenuwrapper">
         <div id="hamburgerui">
             <ul>
@@ -54,22 +47,22 @@
         <nav id="fullscreenmenu">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#">Featured // #21</a></li>
-                <li><a href="#">Edition Archive</a></li>
+                <li><a href="featured.html">Featured // #21</a></li>
+                <li><a href="archive.html">Edition Archive</a></li>
                 <li><a href="submissions.html">Submissions</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="about.html">About</a></li>
             </ul>
         </nav>
-
-
     </div>
-    <div class="centersocial">
-        <div class="socialmedia">
+    <!---------------- Social Icons & Wrapper ---------------->
+    <div class="social_wrapper">
+        <div class="social_icons">
             <a href="https://www.facebook.com/" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
             <a href="https://www.twitter.com/" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
             <a href="https://www.instagram.com/" title="Instagram" target="_blank"><i class="fa fa-instagram"></i></a>
         </div>
     </div>
+    <!---------------- Background Video ---------------->
     <div class="background-image-submission">
         <video loop muted autoplay class="fullscreen-bg__video">
             <source src="ink.mp4" type="video/mp4">
