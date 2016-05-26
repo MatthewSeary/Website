@@ -22,8 +22,7 @@
 
 .center {
     width: 500px;
-    margin: 10% auto;
-    text-align: center;
+    margin: 20% auto;
 }
 
 .dropdown {
@@ -53,7 +52,7 @@
 @media (max-width: 800px) {
     .center {
         width: 400px;
-        margin: 30% auto;
+        margin: 40% auto;
     }
     .header {
         display: none;
@@ -62,10 +61,10 @@
         display: none;
     }
     .email {
-        font: bold 20px 'Roboto', sans-serif;
+        font: bold 30px 'Roboto', sans-serif;
     }
     #showOrHideDiv {
-        font: bold 14px 'Roboto', sans-serif;
+        font: bold 16px 'Roboto', sans-serif;
     }
 }
 
@@ -81,10 +80,10 @@
         display: none;
     }
     .email {
-        font: bold 14px 'Roboto', sans-serif;
+        font: bold 20px 'Roboto', sans-serif;
     }
     #showOrHideDiv {
-        font: bold 12px 'Roboto', sans-serif;
+        font: bold 14px 'Roboto', sans-serif;
     }
 }
 
