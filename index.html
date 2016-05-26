@@ -17,27 +17,52 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="hamburgericonmenu.js"></script>
     <script src="fadein.js"></script>
+    <style>
+        .background-image {
+            background: url('5120x2880.png') no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: -999;
+            opacity: 0;
+            -webkit-animation-name: fade-in;
+            -webkit-animation-duration: 2s;
+            -webkit-animation-timing-function: ease-in;
+            -webkit-animation-iteration-count: 1;
+        }
+        
+        .background-image.visible {
+            opacity: 1;
+        }
+    </style>
 </head>
 
-    <body onload="document.body.style.opacity='1'">
+<body onload="document.body.style.opacity='1'">
     <div class="container">
         <div class="header">COAST COLLECTIVE</div>
         <div class="edition">EDITION #1 OUT NOW</div>
-        <div class="photocredit">Beach <br>
-        Matthew Seary
-        <br>
-        University of Kent
-        <br></div>  <!--   
+        <div class="photocredit">Beach
+            <br> Matthew Seary
+            <br> University of Kent
+            <br>
+        </div>
+        <!--   
         <div class="slidein2">to the</div>
 <div class="slidein3">COAST COLLECTIVE</div>-->
 
-    </div> 
+    </div>
 
     <!-- Keep below other elements -->
     <div class="socialmedia">
-    <a href="https://www.facebook.com/" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
-    <a href="https://www.twitter.com/" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
-    <a href="https://www.instagram.com/" title="Instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.facebook.com/" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.twitter.com/" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/" title="Instagram" target="_blank"><i class="fa fa-instagram"></i></a>
     </div>
     <div id="hamburgericonmenuwrapper">
         <div id="hamburgerui">
@@ -57,7 +82,7 @@
 
 
     </div>
-        <div class="background-image"></div>
+    <div class="background-image"></div>
 </body>
 
 </html>
