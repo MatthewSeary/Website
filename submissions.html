@@ -9,51 +9,33 @@
 
     <link rel="stylesheet" href="hamburgericonmenu.css" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="submissions.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-    <style>
-        @media (max-width: 600px) {
-        .socialmedia {
-            position: fixed;
-            left: 50%;
-            width: 85.8px !important;
-            transform: translateX(-50%);
-            background-color: #333333;
-            top: 90%;
-            z-index: 99999;
-        }
-        .header{
-            display: none;
-        }
-        .photocredit{
-            display: none;
-        }
-            .email{
-                left: 20%;
-                font: 20px;
-            }
-        }
-    </style>
+
     <title>Coast Collective</title>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="hamburgericonmenu.js"></script>
     <script src="fadein.js"></script>
-    <script>$(function () {                      // on document ready
-    var div = $('#showOrHideDiv');   // cache <div>
-    $('#action').click(function () { // on click on the `<a>`
-    div.fadeToggle(1000);        // toggle div visibility over 1 second
-    });
-    });</script>
+    <script>
+        $(function () { // on document ready
+            var div = $('#showOrHideDiv'); // cache <div>
+            $('#action').click(function () { // on click on the `<a>`
+                div.fadeToggle(1000); // toggle div visibility over 1 second
+            });
+        });
+    </script>
+
 </head>
 
 <body onload="document.body.style.opacity='1'">
     <div class="container">
         <div class="email">thecoastcollective@gmail.com</div>
         <div class="dropdown"><a id="action" href="#"><i class="fa fa-caret-down fa-2x"></i></a>
-        <div id="showOrHideDiv" style="display: none;">Hello</div>
+            <div id="showOrHideDiv" style="display: none;">Hello</div>
         </div>
-       
+
         <div class="header">COAST COLLECTIVE</div>
         <div class="photocredit">Ink Drop 019
             <br> MaddTroysStudioX
@@ -84,8 +66,8 @@
 
 
     </div>
-    <div class="background-image">
-        <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
+    <div class="background-image-submission">
+        <video loop muted autoplay class="fullscreen-bg__video">
             <source src="https://vid.me/e/0lxP" type="video/mp4">
         </video>
     </div>
