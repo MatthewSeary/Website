@@ -13,19 +13,15 @@ body {
     z-index: -98;
 }
 
-.menu {
-    position: fixed;
-    width: 10%;
-    height: 100%;
-}
 
-.centersocial {
+/******************* Social Icons & Wrapper *******************/
+
+.social_wrapper {
     width: 110px;
     margin: 1.5% 90%;
-    z-index: 99999;
 }
 
-.socialmedia {
+.social_icons {
     width: 100%;
     background-color: #333333;
     padding-left: 20px;
@@ -63,60 +59,50 @@ body {
     transition: color 0.5s ease;
 }
 
-.header {
-    position: relative;
+
+/******************* Bottom Right (br) Text *******************/
+
+.br_header {
+    position: fixed;
     font: bold 30px 'Roboto', sans-serif;
     color: #efefef;
     right: 5%;
     top: 80%;
     text-align: right;
     -webkit-animation: fadein 8s;
-    /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 8s;
-    /* Firefox < 16 */
     -ms-animation: fadein 8s;
-    /* Internet Explorer */
     -o-animation: fadein 8s;
-    /* Opera < 12.1 */
     animation: fadein 8s;
 }
 
-.edition {
-    position: relative;
+.br_edition {
+    position: fixed;
     width: 100%;
     font: 18px 'Roboto', sans-serif;
     color: #efefef;
     right: 5%;
-    top: 80%;
+    top: 83.5%;
     text-align: right;
     -webkit-animation: fadein 10s;
-    /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 10s;
-    /* Firefox < 16 */
     -ms-animation: fadein 10s;
-    /* Internet Explorer */
     -o-animation: fadein 10s;
-    /* Opera < 12.1 */
     animation: fadein 10s;
 }
 
-.photocredit {
-    position: relative;
+.br_photocredit {
+    position: fixed;
     width: 100%;
     font: 12px 'Roboto', sans-serif;
     color: #666666;
     right: 5%;
-    top: 80%;
-    padding-top: 1%;
+    top: 88%;
     text-align: right;
     -webkit-animation: fadein 10s;
-    /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 10s;
-    /* Firefox < 16 */
     -ms-animation: fadein 10s;
-    /* Internet Explorer */
     -o-animation: fadein 10s;
-    /* Opera < 12.1 */
     animation: fadein 10s;
 }
 
@@ -129,9 +115,6 @@ body {
     }
 }
 
-
-/* Firefox < 16 */
-
 @-moz-keyframes fadein {
     from {
         opacity: 0;
@@ -140,9 +123,6 @@ body {
         opacity: 1;
     }
 }
-
-
-/* Safari, Chrome and Opera > 12.1 */
 
 @-webkit-keyframes fadein {
     from {
@@ -153,9 +133,6 @@ body {
     }
 }
 
-
-/* Internet Explorer */
-
 @-ms-keyframes fadein {
     from {
         opacity: 0;
@@ -165,9 +142,6 @@ body {
     }
 }
 
-
-/* Opera < 12.1 */
-
 @-o-keyframes fadein {
     from {
         opacity: 0;
@@ -176,6 +150,9 @@ body {
         opacity: 1;
     }
 }
+
+
+/******************* Full Screen Video *******************/
 
 @-webkit-keyframes fade-in {
     0% {
@@ -200,17 +177,18 @@ body {
     position: absolute;
     top: 0;
     left: 0;
+    z-index: -100;
 }
 
 
-/******************* Device Settings ******************/
+/******************* Device Settings *******************/
 
 @media (max-width: 800px) {
-    .centersocial {
+    .social_wrapper {
         position: absolute;
-        left:0;
-        right:0;
-        margin:0 auto;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
         top: 90%;
     }
     .fullscreen-bg__video {
@@ -219,21 +197,21 @@ body {
 }
 
 @media (max-width: 600px) {
-    .centersocial {
+    .social_wrapper {
         position: absolute;
-        left:0;
-        right:0;
-        margin:0 auto;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
         top: 90%;
     }
-    .header {
+    .br_header {
         top: 50%;
     }
-    .edition {
-        top: 50%;
+    .br_edition {
+        top: 53.5%;
     }
-    .photocredit {
-        top: 50%;
+    .br_photocredit {
+        top: 57%;
         color: #efefef;
     }
     .fullscreen-bg__video {
@@ -242,11 +220,11 @@ body {
 }
 
 @media (max-width: 400px) {
-    .centersocial {
+    .social_wrapper {
         position: absolute;
-        left:0;
-        right:0;
-        margin:0 auto;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
         top: 90%;
     }
 }
