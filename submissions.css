@@ -22,7 +22,7 @@
 /******************* Email & Dropdown *******************/
 
 .center {
-    width: 500px;
+    width: 600px;
     margin: 20% auto;
 }
 
@@ -37,13 +37,14 @@
 }
 
 #showOrHideDiv {
+    width: 90%;
     margin: auto;
     background: rgba(239, 239, 239, .8);
     border: solid 1px;
     border-color: #555;
-    padding: 25px;
+    padding: 10px;
     font: bold 16px 'Roboto', sans-serif;
-    text-align: center;
+    text-align: left;
 }
 
 .email {
@@ -51,6 +52,7 @@
     margin: auto;
     text-align: center;
     font: bold 30px 'Roboto', sans-serif;
+    background: rgba(255, 255, 255, .5);    
     border-bottom: 1px dotted #000;
 }
 
