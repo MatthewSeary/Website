@@ -227,4 +227,17 @@ body {
         margin: 0 auto;
         top: 90%;
     }
+    .br_header {
+        top: 50%;
+    }
+    .br_edition {
+        top: 57.5%;
+    }
+    .br_photocredit {
+        top: 63%;
+        color: #efefef;
+    }
+    .fullscreen-bg__video {
+        display: none;
+    }
 }
