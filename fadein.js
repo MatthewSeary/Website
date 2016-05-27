@@ -13,3 +13,8 @@ $(document).ready(function () {
         $(this).addClass('visible');
     });
 });
+$(document).ready(function () {
+    $('.background-image-vinyl').on('webkitAnimationEnd', function (e) {
+        $(this).addClass('visible');
+    });
+});
