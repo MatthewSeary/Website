@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="hamburgericonmenu.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+    <title>Coast Collective</title>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="hamburgericonmenu.js"></script>
+    <script src="fadein.js"></script>
+    <script src="showhide.js"></script>
+
+</head>
+
+<body onload="document.body.style.opacity='1'">
+    <div class="container">
+        <!---------------- About & Content ---------------->
+        <div class="center">
+            <div class="about">ABOUT</div>
+            <div class="content">A collective for artistic expression. From photography, to poetry, to drawings, the Coast Collective is an open journal for university students from all over the UK.</div>
+        </div>
+        <!---------------- Bottom Right (BR) Text ---------------->
+        <div class="br_header">COAST COLLECTIVE</div>
+        <div class="br_photocredit">Camera Lens
+            <br> Beachfront B-Roll
+        </div>
+    </div>
+    <!---------------- Menu ---------------->
+    <div id="hamburgericonmenuwrapper">
+        <div id="hamburgerui">
+            <ul>
+                <li><a href="#"><span id="navtoggler"></span></a></li>
+            </ul>
+        </div>
+        <nav id="fullscreenmenu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="featured.html">Featured // #21</a></li>
+                <li><a href="archive.html">Edition Archive</a></li>
+                <li><a href="submissions.html">Submissions</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!---------------- Social Icons & Wrapper ---------------->
+    <div class="social_wrapper">
+        <div class="social_icons">
+            <a href="https://www.facebook.com/" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.twitter.com/" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/" title="Instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+        </div>
+    </div>
+    <!---------------- Background Video ---------------->
+    <div class="background-image-camera">
+        <video loop muted autoplay class="fullscreen-bg__video">
+            <source src="camera.mp4" type="video/mp4">
+        </video>
+    </div>
+</body>
+
+</html>
